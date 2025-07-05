@@ -6,7 +6,7 @@ export const useAuthStore = defineStore('auth', {
   state: () => ({
     username: '',
     isLoggedIn: false,
-    baseURL: 'https://iron-expensive-cornet.glitch.me/logins' 
+    baseURL: 'https://futsal-api.glitch.me/logins' 
   }),
   actions: {
     async login(username) {

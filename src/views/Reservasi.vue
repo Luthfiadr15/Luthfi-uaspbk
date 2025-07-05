@@ -67,7 +67,7 @@ export default {
         metode: '',
         jumlah: null
       },
-      baseURL: 'https://iron-expensive-cornet.glitch.me'
+      baseURL: 'https://futsal-api.glitch.me'
     }
   },
   methods: {

@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
-const API_BASE = "https://iron-expensive-cornet.glitch.me/reservasi"
+const API_BASE = "https://futsal-api.glitch.me/reservasi"
 
 export const useReservasiStore = defineStore('reservasi', {
   state: () => ({

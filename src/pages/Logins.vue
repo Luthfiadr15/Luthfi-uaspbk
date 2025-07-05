@@ -35,7 +35,7 @@ export default {
   methods: {
     async fetchLogins() {
       try {
-        const res = await axios.get('https://iron-expensive-cornet.glitch.me/logins')
+        const res = await axios.get('https://futsal-api.glitch.me/logins')
         this.logins = res.data
       } catch (err) {
         console.error('Gagal mengambil data login:', err)

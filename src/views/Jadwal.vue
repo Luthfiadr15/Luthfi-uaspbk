@@ -68,7 +68,7 @@ export default {
   name: "Jadwal",
   data() {
     return {
-      baseURL: 'https://iron-expensive-cornet.glitch.me', // hanya root saja
+      baseURL: 'https://futsal-api.glitch.me', // hanya root saja
       jadwal: []
     }
   },

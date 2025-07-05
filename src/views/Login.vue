@@ -75,7 +75,7 @@ export default {
           waktu: new Date().toISOString()
         }
 
-        const res = await axios.post('https://iron-expensive-cornet.glitch.me/logins', loginData)
+        const res = await axios.post('https://futsal-api.glitch.me/logins', loginData)
         console.log("✅ Login berhasil disimpan ke JSON Server:", res.data)
 
         this.login(this.username) // simpan ke Pinia + localStorage
